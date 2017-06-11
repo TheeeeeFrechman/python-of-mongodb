@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CySec_H008Config>
+	<server_role>1</server_role>
+        <interface_set>
+                <send_eth>eth0</send_eth>
+                <recv_eth>eth0</recv_eth>
+                <dst_mac>00:00:00:00:00:00</dst_mac>
+                <src_mac>00:00:00:00:00:00</src_mac>
+        </interface_set>
+        <database>
+                <db_address>127.0.0.1</db_address>
+                <db_name>CySec_H008</db_name>
+                <db_user>CySec_H008</db_user>
+                <db_pwd>CySec_H008</db_pwd>
+                <db_port>27017</db_port>
+                <node>
+                    <ip>127.0.0.1</ip>
+                    <es>9200</es>
+                </node>
+        </database>
+        <out_device>1</out_device>
+        <auth_type>03</auth_type>
+	<webserver>127.0.0.1</webserver>
+        <device_id>6000001</device_id>
+        <internal_device_address>
+        </internal_device_address>
+        <cheat_para>
+                <MTU>1400</MTU>
+                <Flush>1</Flush>
+		<pppoe>1</pppoe>
+		<Vlan>1</Vlan>
+		<VlanID>ffff</VlanID>
+        </cheat_para>
+	<xml_output_para>
+                <enable>0</enable>
+                <output_path>/home/ftp</output_path>
+        </xml_output_para>
+</CySec_H008Config>   
