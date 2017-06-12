@@ -1,11 +1,6 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-  
-'''
-    @File        DeviceBuilder.py
-    @Author      pengsen cheng
-    @Company     bhyc
-    @CreatedDate 2015-10-21
-'''
+
 from xml.etree import ElementTree
 import storage
 
