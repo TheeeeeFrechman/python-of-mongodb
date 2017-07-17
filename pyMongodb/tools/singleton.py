@@ -1,10 +1,4 @@
 #!/usr/bin/python
-'''
-    @File        singleton.py
-    @Author      pengsen cheng
-    @Company     bhyc
-    @CreatedDate 2014-07-03
-'''
 
 def singleton(cls, *args, **kw):  
     instances = {}  
