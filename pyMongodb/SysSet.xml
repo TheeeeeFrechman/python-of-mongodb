@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<CySec_H008Config>
+<DataConfig>
 	<server_role>1</server_role>
         <interface_set>
-                <send_eth>eth0</send_eth>
-                <recv_eth>eth0</recv_eth>
                 <dst_mac>00:00:00:00:00:00</dst_mac>
                 <src_mac>00:00:00:00:00:00</src_mac>
         </interface_set>
         <database>
                 <db_address>127.0.0.1</db_address>
-                <db_name>CySec_H008</db_name>
-                <db_user>CySec_H008</db_user>
-                <db_pwd>CySec_H008</db_pwd>
-                <db_port>27017</db_port>
+                <db_name>userName</db_name>
+                <db_user>user</db_user>
+                <db_pwd>passwd</db_pwd>
+                <db_port>000001</db_port>
                 <node>
                     <ip>127.0.0.1</ip>
                     <es>9200</es>
@@ -35,4 +33,4 @@
                 <enable>0</enable>
                 <output_path>/home/ftp</output_path>
         </xml_output_para>
-</CySec_H008Config>   
+</DataConfig>   
