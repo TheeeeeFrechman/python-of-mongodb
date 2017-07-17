@@ -6,7 +6,7 @@ import storage
 
 class SysArgv(object):
     def __init__(self):
-        conffile = '/CySec_H008/conf/SysSet.xml'
+        conffile = '/item/conf/SysSet.xml'
         tree = ElementTree.ElementTree(file = conffile)
         root = tree.getroot()
 
