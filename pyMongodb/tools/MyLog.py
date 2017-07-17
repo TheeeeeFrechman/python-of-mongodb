@@ -1,11 +1,6 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-  
-'''
-    @File        MyLog.py
-    @Author      pengsen cheng
-    @Company     bhyc
-    @CreatedDate 2014-04-02
-'''
+
 
 import time, sys, os
 reload(sys) 
@@ -29,7 +24,7 @@ class MyLog(object):
     __handle = None
     __time = ''
     __path = None
-    def __init__(self, path='/CySec_H008/log/storage'):
+    def __init__(self, path='/item/log/storage'):
         '''
         construction function. to open the log file, and changes the file
         when the time is changed.
