@@ -1,11 +1,5 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-  
-'''
-    @File        MemCache.py
-    @Author      pengsen cheng
-    @Company     bhyc
-    @CreatedDate 2015-12-29
-'''
 
 import memcache
 from xml.etree import ElementTree
@@ -15,7 +9,7 @@ from singleton import singleton
 @singleton
 class MemCache(object):
     def __init__(self):
-        conffile = '/CySec_H008/conf/SysSet.xml'
+        conffile = '/item/conf/SysSet.xml'
         tree = ElementTree.ElementTree(file = conffile)
         root = tree.getroot()
         node = root.find('webserver') 
