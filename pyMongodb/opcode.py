@@ -1,10 +1,5 @@
 #!/usr/bin/python
-'''
-    @File        opcode.py
-    @Author      pengsen cheng
-    @Company     bhyc
-    @CreatedDate 2014-04-03
-'''
+
 
 class _opcode(object):
     class ConstError(TypeError):
